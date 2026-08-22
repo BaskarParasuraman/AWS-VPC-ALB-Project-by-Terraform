@@ -47,20 +47,10 @@ This Terraform project creates and configures:
 
 The Application Load Balancer receives HTTP requests from users and distributes the requests across the EC2 instances registered in the target group.
 
-For example:
-
-Browser
-   |
-   v
-ALB DNS Name
-   |
-   +----> EC2 Instance 1
-   |
-   +----> EC2 Instance 2
-
 Refreshing the ALB URL may result in responses from different EC2 instances.
 
 This can be used to demonstrate load balancing by displaying a different message or instance ID on each server.
 
 **Result**
+
 Load Balancer will route the traffic to two instances
