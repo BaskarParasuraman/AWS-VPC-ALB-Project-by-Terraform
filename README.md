@@ -5,23 +5,8 @@ This project demonstrates how to provision a basic AWS infrastructure using Terr
 The application runs on multiple EC2 instances, and the Application Load Balancer distributes incoming HTTP traffic between the instances.
 
 **Architecture**
-                         Internet
-                            |
-                            |
-                     Application
-                    Load Balancer
-                            |
-                 +----------+----------+
-                 |                     |
-                 v                     v
-            EC2 Instance 1       EC2 Instance 2
-                 |                     |
-                 +----------+----------+
-                            |
-                       Apache Web Server
-                            |
-                     HTML Application
 
+<img width="500" height="500" alt="AWS Terraform Infra" src="https://github.com/user-attachments/assets/2c133cba-7328-481b-8dbb-f8e04549b4f6" />
 
 **AWS Resources**
 
