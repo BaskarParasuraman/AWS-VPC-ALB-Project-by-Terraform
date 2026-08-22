@@ -29,19 +29,49 @@ This Terraform project creates and configures:
 
 **Deployment**
 
-1. Clone the repository
-   git clone <YOUR-GITHUB-REPOSITORY-URL>
-   cd Terraform_vpc_project
-2. Initialize Terraform
-   terraform init
-3. Validate the configuration
-   terraform validate
-4. Review the execution plan
-   terraform plan
-5. Create the infrastructure
-   terraform apply
-6. After Implementing, delete everything
-   terraform destroy
+### 1. Clone the Repository
+
+```bash
+git clone <YOUR-GITHUB-REPOSITORY-URL>
+cd Terraform_vpc_project
+```
+
+### 2. Initialize Terraform
+
+```bash
+terraform init
+```
+
+### 3. Validate the Terraform Configuration
+
+```bash
+terraform validate
+```
+
+### 4. Review the Execution Plan
+
+```bash
+terraform plan
+```
+
+### 5. Create the Infrastructure
+
+```bash
+terraform apply
+```
+
+### 6. Verify the Infrastructure
+
+After Terraform completes, verify the AWS resources that were created and access the Application Load Balancer using its DNS name.
+
+### 7. Destroy the Infrastructure
+
+After completing the project, destroy all the Terraform-managed AWS resources to avoid unnecessary AWS charges:
+
+```bash
+terraform destroy
+```
+
 
 **Application Load Balancer**
 
