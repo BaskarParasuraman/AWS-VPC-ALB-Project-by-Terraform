@@ -6,7 +6,7 @@ The application runs on multiple EC2 instances, and the Application Load Balance
 
 **Architecture**
 
-<img width="500" height="500" alt="AWS Terraform Infra" src="https://github.com/user-attachments/assets/2c133cba-7328-481b-8dbb-f8e04549b4f6" />
+<img width="700" height="500" alt="AWS Terraform Infra" src="https://github.com/user-attachments/assets/2c133cba-7328-481b-8dbb-f8e04549b4f6" />
 
 **AWS Resources**
 
